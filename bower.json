@@ -1,0 +1,21 @@
+{
+  "name": "quail-web",
+  "version": "0.0.1",
+  "authors": [
+    "rsata <reid.t.sata@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {},
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "jquery": "~2.1.4",
+    "jquery.easing": "~1.3.1"
+  }
+}

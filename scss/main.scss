@@ -1,0 +1,228 @@
+@import './bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+
+@import 'components/_colors.scss'; 
+
+
+
+html body {
+  font-family: 'Helvetica', sans-serif;
+}
+
+
+
+// nav
+
+.navbar-default {
+  opacity: 0.8;
+}
+
+.navbar-brand img {
+  width: 25px;
+}
+
+
+// Intro
+
+h1.title {
+  color: white;
+  font-size: 5em;
+  font-weight: 700;
+}
+
+h1.slogan {
+  color: white;
+  font-size: 3em;
+}
+
+h4.sub-title {
+  color: white;
+}
+
+.intro {
+  height: 100%;
+  background: url(../images/bridgepic.png) no-repeat top right;
+  background-attachment:fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.title-logo {
+  width: 100%
+}
+
+
+
+// Features 
+
+.features {
+  background: url(../images/BGtemp.svg);
+  color: #ddd;
+}
+
+.features-title {
+  // font-family: 'Open Sans', sans-serif;
+}
+
+.feature-icon  {
+  font-size: 6em;
+}
+
+.feature-item-title {
+  // font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.7em;
+}
+
+.feature-text {
+  // font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1.1em;
+}
+
+
+
+// Plant
+
+.plant {
+  background: url(../images/plant.jpeg) no-repeat top right;
+  background-attachment:fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.plant-img {
+  margin-top: 170px;
+  margin-bottom: 60px;
+  color: white;
+}
+
+
+
+
+// Form section
+
+.contact-form {
+  color: #444;
+}
+
+.contact-form-sub {
+  color: #444;
+}
+
+.form-section {
+  background: url(../images/BGhome.svg);
+}
+
+.mc-field-group input {
+  width: 100%;
+  margin-top: 14px;
+  height: 45px;
+  background-color: #eee;
+  color: #777;
+  border: 1px solid #aaa;
+  text-align: center;
+}
+
+.submit-button {
+  margin-top: 14px;
+  height: 45px;
+  width: 100%;
+  border: none;
+  color: #eee;
+}
+
+.form-control:focus {
+  border: 2px #555 solid;
+}
+
+.form-control:hover {
+  border: 2px #555 solid;
+}
+
+
+// Footer
+
+.footer {
+  height: 100px;
+  background-color: #397fdb;
+}
+
+.footer-text {
+  color: white;
+}
+
+
+
+
+// Helper
+
+.vertical-align {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.buffer {
+  margin-top: 20px;
+}
+
+.buffer2 {
+  margin-top: 40px;
+}
+
+.buffer3 {
+  margin-top: 60px;
+}
+
+.buffer4 {
+  margin-top: 80px;
+}
+
+.buffer5 {
+  margin-top: 100px;
+}
+
+
+.buffer-bot {
+  margin-bottom: 20px;
+}
+
+.buffer-bot2 {
+  margin-bottom: 40px;
+}
+
+.buffer-bot3 {
+  margin-bottom: 60px;
+}
+
+.buffer-bot4 {
+  margin-bottom: 80px;
+}
+
+.buffer-bot5 {
+  margin-bottom: 100px;
+}
+
+.zdepth1 {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16), 0 2px 10px rgba(0, 0, 0, 0.12);
+}
+
+.zdepth2 {
+  box-shadow: 0 8px 17px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+
+.zdepth3 {
+  box-shadow: 0 12px 15px rgba(0, 0, 0, 0.24), 0 17px 50px rgba(0, 0, 0, 0.19);
+}
+
+.zdepth4 {
+  box-shadow: 0 16px 28px rgba(0, 0, 0, 0.22), 0 25px 55px rgba(0, 0, 0, 0.21);
+}
+
+.zdepth5 {
+  box-shadow: 0 27px 24px rgba(0, 0, 0, 0.2), 0 40px 77px rgba(0, 0, 0, 0.22);
+}
