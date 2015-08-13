@@ -10,10 +10,4 @@ $(function () {
   });
 
 
-  // var h1 = $('.intro').height();
-  // var h2 = $('features').height();
-
-  // $('img.plant-pic').css('margin-top', '600px');
-
-
 });
